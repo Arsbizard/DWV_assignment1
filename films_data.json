@@ -1,0 +1,452 @@
+[
+{
+    "Rank": "1",
+    "Title": "Avatar",
+    "Release Year": "2009",
+    "Box Office Revenue": "2923706026",
+    "URL": "https://en.wikipedia.org/wiki/Avatar_(2009_film)",
+    "Directed by": "James Cameron",
+    "Country of origin": "United Kingdom, United States"
+},
+{
+    "Rank": "43",
+    "Title": "Pirates of the Caribbean: Dead Man's Chest",
+    "Release Year": "2006",
+    "Box Office Revenue": "1066179747",
+    "URL": "https://en.wikipedia.org/wiki/Pirates_of_the_Caribbean:_Dead_Man%27s_Chest",
+    "Directed by": "Gore Verbinski",
+    "Country of origin": "United States"
+},
+{
+    "Rank": "50",
+    "Title": "Despicable Me 3",
+    "Release Year": "2017",
+    "Box Office Revenue": "1034800131",
+    "URL": "https://en.wikipedia.org/wiki/Despicable_Me_3",
+    "Directed by": "Pierre Coffin, Kyle Balda",
+    "Country of origin": "United States"
+},
+{
+    "Rank": "42",
+    "Title": "Toy Story 3",
+    "Release Year": "2010",
+    "Box Office Revenue": "1066970811",
+    "URL": "https://en.wikipedia.org/wiki/Toy_Story_3",
+    "Directed by": "Lee Unkrich",
+    "Country of origin": "United States"
+},
+{
+    "Rank": "46",
+    "Title": "Aladdin",
+    "Release Year": "2019",
+    "Box Office Revenue": "1050693953",
+    "URL": "https://en.wikipedia.org/wiki/Aladdin_(2019_film)",
+    "Directed by": "Guy Ritchie",
+    "Country of origin": "United States"
+},
+{
+    "Rank": "44",
+    "Title": "Rogue One: A Star Wars Story",
+    "Release Year": "2016",
+    "Box Office Revenue": "1057420387",
+    "URL": "https://en.wikipedia.org/wiki/Rogue_One:_A_Star_Wars_Story",
+    "Directed by": "Gareth Edwards",
+    "Country of origin": "United States"
+},
+{
+    "Rank": "40",
+    "Title": "Star Wars: The Rise of Skywalker",
+    "Release Year": "2019",
+    "Box Office Revenue": "1074144248",
+    "URL": "https://en.wikipedia.org/wiki/Star_Wars:_The_Rise_of_Skywalker",
+    "Directed by": "J. J. Abrams",
+    "Country of origin": "United States"
+},
+{
+    "Rank": "47",
+    "Title": "Star Wars: Episode I – The Phantom Menace",
+    "Release Year": "1999",
+    "Box Office Revenue": "1046515409",
+    "URL": "https://en.wikipedia.org/wiki/Star_Wars:_Episode_I_%E2%80%93_The_Phantom_Menace",
+    "Directed by": "George Lucas",
+    "Country of origin": "United States"
+},
+{
+    "Rank": "45",
+    "Title": "Moana 2",
+    "Release Year": "2024",
+    "Box Office Revenue": "1053978188",
+    "URL": "https://en.wikipedia.org/wiki/Moana_2",
+    "Directed by": "David Derrick Jr., Jason Hand, Dana Ledoux Miller",
+    "Country of origin": "United States"
+},
+{
+    "Rank": "48",
+    "Title": "Pirates of the Caribbean: On Stranger Tides",
+    "Release Year": "2011",
+    "Box Office Revenue": "1045713802",
+    "URL": "https://en.wikipedia.org/wiki/Pirates_of_the_Caribbean:_On_Stranger_Tides",
+    "Directed by": "Rob Marshall",
+    "Country of origin": "United States"
+},
+{
+    "Rank": "37",
+    "Title": "Transformers: Age of Extinction",
+    "Release Year": "2014",
+    "Box Office Revenue": "1104054072",
+    "URL": "https://en.wikipedia.org/wiki/Transformers:_Age_of_Extinction",
+    "Directed by": "Michael Bay",
+    "Country of origin": "United States"
+},
+{
+    "Rank": "41",
+    "Title": "Toy Story 4",
+    "Release Year": "2019",
+    "Box Office Revenue": "1073394593",
+    "URL": "https://en.wikipedia.org/wiki/Toy_Story_4",
+    "Directed by": "Josh Cooley",
+    "Country of origin": "United States"
+},
+{
+    "Rank": "49",
+    "Title": "Jurassic Park",
+    "Release Year": "1993",
+    "Box Office Revenue": "1037535230",
+    "URL": "https://en.wikipedia.org/wiki/Jurassic_Park_(film)",
+    "Directed by": "Steven Spielberg",
+    "Country of origin": "United States"
+},
+{
+    "Rank": "39",
+    "Title": "Joker",
+    "Release Year": "2019",
+    "Box Office Revenue": "1074458282",
+    "URL": "https://en.wikipedia.org/wiki/Joker_(2019_film)",
+    "Directed by": "Todd Phillips",
+    "Country of origin": "United States"
+},
+{
+    "Rank": "36",
+    "Title": "Skyfall",
+    "Release Year": "2012",
+    "Box Office Revenue": "1108594137",
+    "URL": "https://en.wikipedia.org/wiki/Skyfall",
+    "Directed by": "Sam Mendes",
+    "Country of origin": "United Kingdom, United States"
+},
+{
+    "Rank": "34",
+    "Title": "Captain Marvel",
+    "Release Year": "2019",
+    "Box Office Revenue": "1128274794",
+    "URL": "https://en.wikipedia.org/wiki/Captain_Marvel_(film)",
+    "Directed by": "Anna Boden, Ryan Fleck",
+    "Country of origin": "United States"
+},
+{
+    "Rank": "38",
+    "Title": "The Dark Knight Rises",
+    "Release Year": "2012",
+    "Box Office Revenue": "1081169825",
+    "URL": "https://en.wikipedia.org/wiki/The_Dark_Knight_Rises",
+    "Directed by": "Christopher Nolan",
+    "Country of origin": "United States, United Kingdom"
+},
+{
+    "Rank": "31",
+    "Title": "Aquaman",
+    "Release Year": "2018",
+    "Box Office Revenue": "1148528393",
+    "URL": "https://en.wikipedia.org/wiki/Aquaman_(film)",
+    "Directed by": "James Wan",
+    "Country of origin": "United States"
+},
+{
+    "Rank": "30",
+    "Title": "Captain America: Civil War",
+    "Release Year": "2016",
+    "Box Office Revenue": "1153337496",
+    "URL": "https://en.wikipedia.org/wiki/Captain_America:_Civil_War",
+    "Directed by": "Anthony Russo, Joe Russo",
+    "Country of origin": "United States"
+},
+{
+    "Rank": "33",
+    "Title": "Spider-Man: Far From Home",
+    "Release Year": "2019",
+    "Box Office Revenue": "1132679685",
+    "URL": "https://en.wikipedia.org/wiki/Spider-Man:_Far_From_Home",
+    "Directed by": "Jon Watts",
+    "Country of origin": "United States"
+},
+{
+    "Rank": "35",
+    "Title": "Transformers: Dark of the Moon",
+    "Release Year": "2011",
+    "Box Office Revenue": "1123794079",
+    "URL": "https://en.wikipedia.org/wiki/Transformers:_Dark_of_the_Moon",
+    "Directed by": "Michael Bay",
+    "Country of origin": "United States"
+},
+{
+    "Rank": "32",
+    "Title": "The Lord of the Rings: The Return of the King",
+    "Release Year": "2003",
+    "Box Office Revenue": "1147997407",
+    "URL": "https://en.wikipedia.org/wiki/The_Lord_of_the_Rings:_The_Return_of_the_King",
+    "Directed by": "Peter Jackson",
+    "Country of origin": "New Zealand, Germany, United States"
+},
+{
+    "Rank": "29",
+    "Title": "Minions",
+    "Release Year": "2015",
+    "Box Office Revenue": "1159444662",
+    "URL": "https://en.wikipedia.org/wiki/Minions_(film)",
+    "Directed by": "Pierre Coffin, Kyle Balda",
+    "Country of origin": "United States"
+},
+{
+    "Rank": "26",
+    "Title": "Incredibles 2",
+    "Release Year": "2018",
+    "Box Office Revenue": "1242805359",
+    "URL": "https://en.wikipedia.org/wiki/Incredibles_2",
+    "Directed by": "Brad Bird",
+    "Country of origin": "United States"
+},
+{
+    "Rank": "24",
+    "Title": "Frozen",
+    "Release Year": "2013",
+    "Box Office Revenue": "1290000000",
+    "URL": "https://en.wikipedia.org/wiki/Frozen_(2013_film)",
+    "Directed by": "Chris Buck, Jennifer Lee",
+    "Country of origin": "United States"
+},
+{
+    "Rank": "27",
+    "Title": "The Fate of the Furious",
+    "Release Year": "2017",
+    "Box Office Revenue": "1238764765",
+    "URL": "https://en.wikipedia.org/wiki/The_Fate_of_the_Furious",
+    "Directed by": "F. Gary Gray",
+    "Country of origin": "United States, China"
+},
+{
+    "Rank": "28",
+    "Title": "Iron Man 3",
+    "Release Year": "2013",
+    "Box Office Revenue": "1214811252",
+    "URL": "https://en.wikipedia.org/wiki/Iron_Man_3",
+    "Directed by": "Shane Black",
+    "Country of origin": "United States"
+},
+{
+    "Rank": "25",
+    "Title": "Beauty and the Beast",
+    "Release Year": "2017",
+    "Box Office Revenue": "1263521126",
+    "URL": "https://en.wikipedia.org/wiki/Beauty_and_the_Beast_(2017_film)",
+    "Directed by": "Bill Condon",
+    "Country of origin": "United States"
+},
+{
+    "Rank": "20",
+    "Title": "Harry Potter and the Deathly Hallows – Part 2",
+    "Release Year": "2011",
+    "Box Office Revenue": "1342139727",
+    "URL": "https://en.wikipedia.org/wiki/Harry_Potter_and_the_Deathly_Hallows_%E2%80%93_Part_2",
+    "Directed by": "David Yates",
+    "Country of origin": "United Kingdom, United States"
+},
+{
+    "Rank": "23",
+    "Title": "Jurassic World: Fallen Kingdom",
+    "Release Year": "2018",
+    "Box Office Revenue": "1308473425",
+    "URL": "https://en.wikipedia.org/wiki/Jurassic_World:_Fallen_Kingdom",
+    "Directed by": "J. A. Bayona",
+    "Country of origin": "China, United States"
+},
+{
+    "Rank": "22",
+    "Title": "Star Wars: The Last Jedi",
+    "Release Year": "2017",
+    "Box Office Revenue": "1332539889",
+    "URL": "https://en.wikipedia.org/wiki/Star_Wars:_The_Last_Jedi",
+    "Directed by": "Rian Johnson",
+    "Country of origin": "United States"
+},
+{
+    "Rank": "18",
+    "Title": "The Super Mario Bros. Movie",
+    "Release Year": "2023",
+    "Box Office Revenue": "1362566989",
+    "URL": "https://en.wikipedia.org/wiki/The_Super_Mario_Bros._Movie",
+    "Directed by": "Aaron Horvath, Michael Jelenic",
+    "Country of origin": "United States"
+},
+{
+    "Rank": "17",
+    "Title": "Avengers: Age of Ultron",
+    "Release Year": "2015",
+    "Box Office Revenue": "1402809540",
+    "URL": "https://en.wikipedia.org/wiki/Avengers:_Age_of_Ultron",
+    "Directed by": "Joss Whedon",
+    "Country of origin": "United States"
+},
+{
+    "Rank": "19",
+    "Title": "Black Panther",
+    "Release Year": "2018",
+    "Box Office Revenue": "1347280838",
+    "URL": "https://en.wikipedia.org/wiki/Black_Panther_(film)",
+    "Directed by": "Ryan Coogler",
+    "Country of origin": "United States"
+},
+{
+    "Rank": "15",
+    "Title": "Frozen 2",
+    "Release Year": "2019",
+    "Box Office Revenue": "1450026933",
+    "URL": "https://en.wikipedia.org/wiki/Frozen_2",
+    "Directed by": "Chris Buck, Jennifer Lee",
+    "Country of origin": "United States"
+},
+{
+    "Rank": "14",
+    "Title": "Top Gun: Maverick",
+    "Release Year": "2022",
+    "Box Office Revenue": "1495696292",
+    "URL": "https://en.wikipedia.org/wiki/Top_Gun:_Maverick",
+    "Directed by": "Joseph Kosinski",
+    "Country of origin": "United States"
+},
+{
+    "Rank": "21",
+    "Title": "Deadpool & Wolverine",
+    "Release Year": "2024",
+    "Box Office Revenue": "1338073645",
+    "URL": "https://en.wikipedia.org/wiki/Deadpool_%26_Wolverine",
+    "Directed by": "Shawn Levy",
+    "Country of origin": "United States"
+},
+{
+    "Rank": "10",
+    "Title": "Jurassic World",
+    "Release Year": "2015",
+    "Box Office Revenue": "1671537444",
+    "URL": "https://en.wikipedia.org/wiki/Jurassic_World",
+    "Directed by": "Colin Trevorrow",
+    "Country of origin": "United States"
+},
+{
+    "Rank": "7",
+    "Title": "Ne Zha 2",
+    "Release Year": "2025",
+    "Box Office Revenue": "1985082560",
+    "URL": "https://en.wikipedia.org/wiki/Ne_Zha_2",
+    "Directed by": "Jiaozi",
+    "Country of origin": "China"
+},
+{
+    "Rank": "12",
+    "Title": "The Avengers",
+    "Release Year": "2012",
+    "Box Office Revenue": "1518815515",
+    "URL": "https://en.wikipedia.org/wiki/The_Avengers_(2012_film)",
+    "Directed by": "Joss Whedon",
+    "Country of origin": "United States"
+},
+{
+    "Rank": "16",
+    "Title": "Barbie",
+    "Release Year": "2023",
+    "Box Office Revenue": "1447038421",
+    "URL": "https://en.wikipedia.org/wiki/Barbie_(film)",
+    "Directed by": "Greta Gerwig",
+    "Country of origin": "United States, United Kingdom"
+},
+{
+    "Rank": "6",
+    "Title": "Avengers: Infinity War",
+    "Release Year": "2018",
+    "Box Office Revenue": "2048359754",
+    "URL": "https://en.wikipedia.org/wiki/Avengers:_Infinity_War",
+    "Directed by": "Anthony Russo, Joe Russo",
+    "Country of origin": "United States"
+},
+{
+    "Rank": "13",
+    "Title": "Furious 7",
+    "Release Year": "2015",
+    "Box Office Revenue": "1515341399",
+    "URL": "https://en.wikipedia.org/wiki/Furious_7",
+    "Directed by": "James Wan",
+    "Country of origin": "United States, China"
+},
+{
+    "Rank": "11",
+    "Title": "The Lion King",
+    "Release Year": "2019",
+    "Box Office Revenue": "1656943394",
+    "URL": "https://en.wikipedia.org/wiki/The_Lion_King_(2019_film)",
+    "Directed by": "Jon Favreau",
+    "Country of origin": "United States"
+},
+{
+    "Rank": "8",
+    "Title": "Spider-Man: No Way Home",
+    "Release Year": "2021",
+    "Box Office Revenue": "1922598800",
+    "URL": "https://en.wikipedia.org/wiki/Spider-Man:_No_Way_Home",
+    "Directed by": "Jon Watts",
+    "Country of origin": "United States"
+},
+{
+    "Rank": "9",
+    "Title": "Inside Out 2",
+    "Release Year": "2024",
+    "Box Office Revenue": "1698863816",
+    "URL": "https://en.wikipedia.org/wiki/Inside_Out_2",
+    "Directed by": "Kelsey Mann",
+    "Country of origin": "United States"
+},
+{
+    "Rank": "2",
+    "Title": "Avengers: Endgame",
+    "Release Year": "2019",
+    "Box Office Revenue": "2797501328",
+    "URL": "https://en.wikipedia.org/wiki/Avengers:_Endgame",
+    "Directed by": "Anthony Russo, Joe Russo",
+    "Country of origin": "United States"
+},
+{
+    "Rank": "3",
+    "Title": "Avatar: The Way of Water",
+    "Release Year": "2022",
+    "Box Office Revenue": "2320250281",
+    "URL": "https://en.wikipedia.org/wiki/Avatar:_The_Way_of_Water",
+    "Directed by": "James Cameron",
+    "Country of origin": "United States"
+},
+{
+    "Rank": "5",
+    "Title": "Star Wars: The Force Awakens",
+    "Release Year": "2015",
+    "Box Office Revenue": "2068223624",
+    "URL": "https://en.wikipedia.org/wiki/Star_Wars:_The_Force_Awakens",
+    "Directed by": "J. J. Abrams",
+    "Country of origin": "United States"
+},
+{
+    "Rank": "4",
+    "Title": "Titanic",
+    "Release Year": "1997",
+    "Box Office Revenue": "2257844554",
+    "URL": "https://en.wikipedia.org/wiki/Titanic_(1997_film)",
+    "Directed by": "James Cameron",
+    "Country of origin": "United States"
+}
+]
