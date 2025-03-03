@@ -37,11 +37,11 @@
             <table class="table table-striped">
                 <thead class="table-dark">
                     <tr>
-                        <th>Title</th>
-                        <th>Release Year</th>
-                        <th>Director</th>
-                        <th>Box Office</th>
-                        <th>Country</th>
+                        <th onclick="sortTable('Title')">Title 🔼🔽</th>
+                        <th onclick="sortTable('Release Year')">Release Year 🔼🔽</th>
+                        <th onclick="sortTable('Directed by')">Director 🔼🔽</th>
+                        <th onclick="sortTable('Box Office Revenue')">Box Office 🔼🔽</th>
+                        <th onclick="sortTable('Country of origin')">Country 🔼🔽</th>
                     </tr>
                 </thead>
                 <tbody id="filmsTable"></tbody>
@@ -55,8 +55,8 @@
 
     <script>
         let filmsData = [];
+        let currentSort = { key: "", order: "asc" };
 
-        // Загружаем JSON
         fetch('films_data.json')
             .then(response => response.json())
             .then(data => {
@@ -68,7 +68,6 @@
             })
             .catch(error => console.error("Error loading JSON:", error));
 
-        // Функция отрисовки таблицы
         function renderTable(data) {
             const tableBody = document.getElementById("filmsTable");
             tableBody.innerHTML = "";
@@ -84,16 +83,19 @@
             });
         }
 
-        // Функция заполнения фильтров
         function populateFilters() {
-            const years = [...new Set(filmsData.map(f => f["Release Year"]))].sort();
-            const countries = [...new Set(filmsData.flatMap(f => f["Country of origin"].split(',')))];
-
-            document.getElementById("yearFilter").innerHTML += years.map(y => `<option value="${y}">${y}</option>`).join("");
-            document.getElementById("countryFilter").innerHTML += countries.map(c => `<option value="${c.trim()}">${c.trim()}</option>`).join("");
+        const years = [...new Set(filmsData.map(f => f["Release Year"]))].sort();
+    
+        // Split country values, trim spaces, and filter out duplicates
+        const countries = [...new Set(filmsData.flatMap(f => f["Country of origin"]
+            .split(',')
+            .map(c => c.trim())))].sort();
+    
+        document.getElementById("yearFilter").innerHTML += years.map(y => `<option value="${y}">${y}</option>`).join("");
+        document.getElementById("countryFilter").innerHTML += countries.map(c => `<option value="${c}">${c}</option>`).join("");
         }
 
-        // Фильтрация данных
+
         document.getElementById("searchInput").addEventListener("input", filterTable);
         document.getElementById("yearFilter").addEventListener("change", filterTable);
         document.getElementById("countryFilter").addEventListener("change", filterTable);
@@ -112,7 +114,6 @@
             renderTable(filteredData);
         }
 
-        // Сброс фильтров
         function resetFilters() {
             document.getElementById("searchInput").value = "";
             document.getElementById("yearFilter").value = "";
@@ -120,7 +121,32 @@
             renderTable(filmsData);
         }
 
-        // Генерация графика
+        function sortTable(column) {
+            if (currentSort.key === column) {
+                currentSort.order = currentSort.order === "asc" ? "desc" : "asc";
+            } else {
+                currentSort.key = column;
+                currentSort.order = "asc";
+            }
+
+            const sortedData = [...filmsData].sort((a, b) => {
+                let valA = a[column];
+                let valB = b[column];
+
+                if (column === "Box Office Revenue") {
+                    valA = Number(valA) || 0;
+                    valB = Number(valB) || 0;
+                } else {
+                    valA = valA.toString().toLowerCase();
+                    valB = valB.toString().toLowerCase();
+                }
+
+                return currentSort.order === "asc" ? valA.localeCompare(valB, undefined, { numeric: true }) : valB.localeCompare(valA, undefined, { numeric: true });
+            });
+
+            renderTable(sortedData);
+        }
+
         function generateChart(data) {
             const top10 = data
                 .sort((a, b) => Number(b["Box Office Revenue"]) - Number(a["Box Office Revenue"]))
