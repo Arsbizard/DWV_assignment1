@@ -56,9 +56,11 @@
     <script>
         let filmsData = [];
 
+        // Загружаем JSON
         fetch('films_data.json')
             .then(response => response.json())
             .then(data => {
+                console.log("Loaded data:", data);
                 filmsData = data;
                 populateFilters();
                 renderTable(data);
@@ -66,29 +68,32 @@
             })
             .catch(error => console.error("Error loading JSON:", error));
 
+        // Функция отрисовки таблицы
         function renderTable(data) {
             const tableBody = document.getElementById("filmsTable");
             tableBody.innerHTML = "";
             data.forEach(film => {
                 const row = `<tr>
-                    <td>${film.title}</td>
-                    <td>${film.release_year}</td>
-                    <td>${film.director}</td>
-                    <td>$${parseFloat(film.box_office).toLocaleString()}</td>
-                    <td>${film.country}</td>
+                    <td>${film["Title"] || "N/A"}</td>
+                    <td>${film["Release Year"] || "N/A"}</td>
+                    <td>${film["Directed by"] || "N/A"}</td>
+                    <td>$${Number(film["Box Office Revenue"]).toLocaleString()}</td>
+                    <td>${film["Country of origin"] || "N/A"}</td>
                 </tr>`;
                 tableBody.innerHTML += row;
             });
         }
 
+        // Функция заполнения фильтров
         function populateFilters() {
-            const years = [...new Set(filmsData.map(f => f.release_year))].sort();
-            const countries = [...new Set(filmsData.flatMap(f => f.country.split(',')))];
+            const years = [...new Set(filmsData.map(f => f["Release Year"]))].sort();
+            const countries = [...new Set(filmsData.flatMap(f => f["Country of origin"].split(',')))];
 
             document.getElementById("yearFilter").innerHTML += years.map(y => `<option value="${y}">${y}</option>`).join("");
             document.getElementById("countryFilter").innerHTML += countries.map(c => `<option value="${c.trim()}">${c.trim()}</option>`).join("");
         }
 
+        // Фильтрация данных
         document.getElementById("searchInput").addEventListener("input", filterTable);
         document.getElementById("yearFilter").addEventListener("change", filterTable);
         document.getElementById("countryFilter").addEventListener("change", filterTable);
@@ -99,14 +104,15 @@
             let countryFilter = document.getElementById("countryFilter").value;
 
             let filteredData = filmsData.filter(film =>
-                (film.title.toLowerCase().includes(searchText)) &&
-                (yearFilter === "" || film.release_year == yearFilter) &&
-                (countryFilter === "" || film.country.includes(countryFilter))
+                (film["Title"].toLowerCase().includes(searchText)) &&
+                (yearFilter === "" || film["Release Year"] == yearFilter) &&
+                (countryFilter === "" || film["Country of origin"].includes(countryFilter))
             );
 
             renderTable(filteredData);
         }
 
+        // Сброс фильтров
         function resetFilters() {
             document.getElementById("searchInput").value = "";
             document.getElementById("yearFilter").value = "";
@@ -114,16 +120,20 @@
             renderTable(filmsData);
         }
 
+        // Генерация графика
         function generateChart(data) {
-            const top10 = data.sort((a, b) => b.box_office - a.box_office).slice(0, 10);
+            const top10 = data
+                .sort((a, b) => Number(b["Box Office Revenue"]) - Number(a["Box Office Revenue"]))
+                .slice(0, 10);
+
             const ctx = document.getElementById('boxOfficeChart').getContext('2d');
             new Chart(ctx, {
                 type: 'bar',
                 data: {
-                    labels: top10.map(film => film.title),
+                    labels: top10.map(film => film["Title"]),
                     datasets: [{
                         label: 'Box Office Revenue ($)',
-                        data: top10.map(film => film.box_office),
+                        data: top10.map(film => Number(film["Box Office Revenue"])),
                         backgroundColor: 'rgba(75, 192, 192, 0.6)',
                         borderColor: 'rgba(75, 192, 192, 1)',
                         borderWidth: 1
